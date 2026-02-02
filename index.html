@@ -4,37 +4,49 @@
   <meta charset="UTF-8">
   <title>South Red Sea Shipyard</title>
 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
 
-  <video class="bg-video" autoplay muted loop playsinline>
+  <!-- Video Background -->
+  <video
+    class="bg-video"
+    autoplay
+    muted
+    loop
+    playsinline
+    preload="auto"
+  >
     <source src="./assets/video/background.mp4" type="video/mp4">
   </video>
 
+  <!-- Overlay -->
   <div class="overlay"></div>
 
+  <!-- Header -->
   <header class="header">
-    <div class="logo">
-      <div class="logo-text">
-        <span>South Red Sea</span>
-        <strong>SHIPYARD</strong>
-      </div>
+    <div class="logo-text">
+      <span>South Red Sea</span>
+      <strong>SHIPYARD</strong>
     </div>
   </header>
 
+  <!-- Titles -->
   <div class="title">
     <h1>south red sea shipyard</h1>
     <h2>ترسانة جنوب البحر الأحمر</h2>
   </div>
 
+  <!-- Buttons -->
   <main class="container">
-    <button class="glass-btn" onclick="location.href='maintenance.html'">
+    <button class="glass-btn">
       maintenance<br>department
     </button>
 
-    <button class="glass-btn" onclick="location.href='production.html'">
+    <button class="glass-btn">
       production<br>department
     </button>
   </main>
